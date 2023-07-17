@@ -9,7 +9,7 @@ apiKey = "6f977cf60e4c437991f162427232506"
 
 // image.src = 'https://cdn.pixabay.com/photo/2016/11/29/05/55/adult-1867665_1280.jpg'
 
-http://api.weatherapi.com/v1/current.json?key=6f977cf60e4c437991f162427232506&q=London&aqi=no
+// http://api.weatherapi.com/v1/current.json?key=6f977cf60e4c437991f162427232506&q=London&aqi=no
 
 
  var a =() =>{
