@@ -4,7 +4,7 @@ let search = document.getElementById("search")
 let form = document.getElementById("form")
 let cardInfo = document.getElementById("card-info")
 
-apiUrl = "http://api.weatherapi.com/v1/current.json?"
+apiUrl = "https://api.weatherapi.com/v1/current.json?"
 apiKey = "6f977cf60e4c437991f162427232506"
 
 // image.src = 'https://cdn.pixabay.com/photo/2016/11/29/05/55/adult-1867665_1280.jpg'
