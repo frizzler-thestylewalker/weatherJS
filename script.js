@@ -57,6 +57,8 @@ let find = () =>{
             case 'Light rain':
             case 'Light rain shower':
             case 'Heavy rain':  
+            case 'Patchy rain possible':  
+            case 'Moderate or heavy rain shower':  
             cardInfo.style.backgroundImage = `url("https://cdn.pixabay.com/photo/2016/11/29/05/55/adult-1867665_1280.jpg")`
             document.getElementById("temp-icon").innerHTML = `<img src='https://cdn.weatherapi.com/weather/64x64/day/308.png'></img>`
             document.getElementById("temp-text").style.color = `white`
