@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">City's Mood</a>
+      </div>
+    </nav>
+
+    <div class="container text-center container-card">
+      <div class="row">
+        <div class="col">
+          <div class="card" id="card-info">
+            <div class="card-body">
+              <h5 class="card-title" id="cityName">City</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary" id="country">
+                Country
+              </h6>
+              <p class="card-text" id="temp">Current Temperature</p>
+              <p class="card-text" id="temp-icon"></p>
+              <p class="card-text" id="temp-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <input
+          id="form"
+          type="text"
+          class="form-control"
+          placeholder="Enter City"
+          aria-label="city-name"
+          aria-describedby="button-addon2"
+          value="Mumbai"
+        />
+        <a href="#" id="search" class="btn btn-primary">Search</a>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
